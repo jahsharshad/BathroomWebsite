@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>AHS Bathroom Signup Form</title>
+    <style>
+    *{
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 0;
+    }
+    h1{
+      text-align: center;
+    }
+    )
+    #title{
+        font-family: 'Abril Fatface', cursive;
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+    #caption{
+        margin-top: 10px;
+    }
+    body{
+      background-image: linear-gradient(white, red);
+      color: black;
+    }
+    body>img,dl>img{
+      width: 85%;
+      margin-bottom: 30px;
+    }
+    h3{
+        font-size: 35px;
+        margin-top: 5px;
+        font-family: 'Abril Fatface', cursive;
+    }
+    p,dl{
+        font-size: 18px;
+        line-height: 150%;
+    }
+    dt{
+        font-family: 'Abril Fatface', cursive;
+        font-size: 25px;
+    }
+    #disclaimer{
+        color: gray;
+        font-size: 6px;
+
+    }
+    #small{
+      font-size: 6px;
+      color: gray;
+      display: inline;
+    }
+    #hPic{
+      width: 85%;
+      margin: auto;
+    }
+    .hBar{
+        background-color: white;
+        text-align: left;
+        position: sticky;
+        top: 0;
+        margin: 0px;
+        margin-bottom: 5px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        font-family: 'Abril Fatface', cursive;
+        border-bottom: 2px solid;
+        border-color: #8a817c;
+        font-size: 30px;
+        color: black;
+    }
+    a:link{
+      text-decoration: none;
+      font-family: 'Abril Fatface', cursive;
+    }
+    a:hover{
+      display: inline;
+    }
+    a:visited .hidden{
+      color: #BCB8DD;
+    }
+    .hBar *{
+      display: inline;
+    }
+    .hidden{
+      visibility: hidden;
+      position: absolute;
+    }
+    #home:hover, #home:hover *{
+        background-color: #8a817c;
+    }
+
+    #form:hover *{
+      visibility: visible;
+      position: static;
+      background-color: #8a817c;
+      color: #000000;
+    }
+    #contact:hover *{
+      visibility: visible;
+      position: static;
+      background-color: #8a817c;
+      color: #000000;
+    }
+    #map:hover *{
+      visibility: visible;
+      position: static;
+      background-color: #8a817c;
+      color: #000000;
+    }
+    .sep{
+      padding-left: 30px;
+      display: inline;
+    }
+    /*.line{
+      display: inline;
+      border-left: 1px solid;
+
+    }*/
+    .topicSection{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-columns: auto auto;
+      padding-bottom: 300px;
+    }
+    .forum{
+      border-size: 5px;
+      background-color: pink;
+      border-top: double;
+      border-left: double;
+      border-right: double;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-bottom: 20%;
+      margin-top: 10%;
+      padding-bottom: 30px;
+    }
+    </style>
+</head> <!--fonts: https://fonts.google.com/specimen/Abril+Fatface?category=Display#standard-styles -header
+https://fonts.google.com/specimen/Source+Sans+Pro?category=Sans+Serif,Monospace - basic text-->
+<body> <!--#dda15e(bronze) and #bcb8b1(light gray) and #8a817c(dark gray)-->
+  <div class="hBar">
+    <a href="home.html" id="home"><img src="../Images/logi.png" alt="logo" title="logo">AHS</a><div class="sep"></div>
+    <div id="form"><a href="form.html"><img src="../Images/form.png" alt="form"><div class="hidden"> Form</div></a></div><div class="sep"></div>
+    <div id="map"><a href="map.html"><img src=../Images/map.png alt="map"><div class="hidden"> Map</div></a></div><div class="sep"></div>
+    <div id="contact"><a href="contact.html"><img src="../Images/contact.png" alt="contact us"><div class="hidden"> Contact Us</div></a></div><div class="sep"></div>
+  </div>
+
+  <div>
+    <h1 id = "title">American High School Bathroom Forum</h1>
+  </div>
+  <div class = "forum">
+    <h1> Signup Form</h1>
+    <br />
+    <div id = "location">
+      <h4>
+        Where are you currently?
+      </h4>
+      <br />
+      <p>
+        <input type="text" name = "location" />
+      </p>
+      <br />
+    </div>
+    <div id = "time">
+      <h4>
+        What time are you leaving?
+      </h4>
+      <br />
+        <select id="hour" name="hour" size="5">
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select><br><br>
+  <br />
+    </div>
+    <div id = "gender">
+      <h4>
+        What bathroom will you be using?
+      </h4>
+      <br />
+      <p>
+       Male: <input type="radio" name = "division" value= "Male" />
+      </p>
+        <p>
+          Female: <input type="radio" name = "division" value= "female" />
+        </p>
+        <p>
+          Non-binary: <input type="radio" name = "division" value= "nonbinary" />
+        </p>
+        <br />
+    </div>
+    <div id = "other">
+      <h4>
+        Do you have another intention to go outside that is not the bathroom?
+
+      </h4>
+      <br />
+      <p>
+      Male: <input type="radio" name = "reason" value= "Library" />
+      </p>
+        <p>
+      Female: <input type="radio" name = "reason" value= "Counsel" />
+        </p>
+        <p>
+      Non-binary: <input type="radio" name = "reason" value= "Office" />
+        </p>
+      <p>
+        Other: <input type="text" name = "reason" />
+      </p>
+    </div>
+  </div>
+    <hr />
+    <footer>
+        <p>
+           temporary
+        </p>
+    </footer>
+</body>
+</html>
