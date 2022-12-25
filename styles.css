@@ -1,0 +1,135 @@
+*{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+#title{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+#caption{
+    margin-top: 10px;
+}
+body{
+  background-image: linear-gradient(white, red);
+  color: black;
+}
+body>img,dl>img{
+  width: 85%;
+  margin-bottom: 30px;
+}
+h3{
+    font-size: 35px;
+    margin-top: 5px;
+    font-family: 'Abril Fatface', cursive;
+}
+p,dl{
+    font-size: 18px;
+    line-height: 150%;
+}
+dt{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+}
+#disclaimer{
+    color: gray;
+    font-size: 6px;
+
+}
+#small{
+  font-size: 6px;
+  color: gray;
+  display: inline;
+}
+#hPic{
+  width: 85%;
+  margin: auto;
+}
+.hBar{
+    background-color: white;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    margin: 0px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-family: 'Abril Fatface', cursive;
+    border-bottom: 2px solid;
+    border-color: #8a817c;
+    font-size: 30px;
+    color: black;
+}
+a:link{
+  text-decoration: none;
+  font-family: 'Abril Fatface', cursive;
+}
+a:hover{
+  display: inline;
+}
+a:visited .hidden{
+  color: #BCB8DD;
+}
+.hBar *{
+  display: inline;
+}
+.hidden{
+  visibility: hidden;
+  position: absolute;
+}
+#home:hover, #home:hover *{
+    background-color: #8a817c;
+}
+
+#form:hover *{
+  visibility: visible;
+  position: static;
+  background-color: #8a817c;
+  color: #000000;
+}
+#contact:hover *{
+  visibility: visible;
+  position: static;
+  background-color: #8a817c;
+  color: #000000;
+}
+#map:hover *{
+  visibility: visible;
+  position: static;
+  background-color: #8a817c;
+  color: #000000;
+}
+.sep{
+  padding-left: 30px;
+  display: inline;
+}
+/*.line{
+  display: inline;
+  border-left: 1px solid;
+
+}*/
+.topicSection{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-columns: auto auto;
+  padding-bottom: 300px;
+}
+.topics{
+  padding: 100px;
+  font-size: 30px;
+
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 140px;
+  margin-top: 75px;
+  margin-right: 140px;
+
+}
+.mySlides1{
+  border-style: solid;
+}
+.mySlides2{
+  border-style: solid;
+}
