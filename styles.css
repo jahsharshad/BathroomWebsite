@@ -105,11 +105,6 @@ a:visited .hidden{
   padding-left: 30px;
   display: inline;
 }
-
-  display: inline;
-  border-left: 1px solid;
-
-}*/
 .topicSection{
   display: grid;
   grid-template-columns: auto auto;
