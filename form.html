@@ -151,35 +151,34 @@ https://fonts.google.com/specimen/Source+Sans+Pro?category=Sans+Serif,Monospace 
     <h1 id = "title">American High School Bathroom Forum</h1>
   </div>
   <div class = "forum">
-    <h1> Report Bathroom Closure</h1>
-    <br />
-    <div id = "location">
-      <h4>
-        Which bathroom is closed?
-      </h4>
-      <br />
-        <select id="hour" name="hour" size="5">
-    <option value="300 wing">300 wing</option>
-    <option value="700 wing">700 wing</option>
-    <option value="Parking Lot">Parking Lot</option>
-    <option value="New Building (Top)">New Building (Top)</option>
-    <option value="New Building (Bottom)">New Building (Bottom)</option>
-  </select><br><br>
-  <br />
-    </div>
-    <div id = "gender">
-      <h4>
-        Gender
-      </h4>
-      <br />
-      <p>
-        Male: <input type="radio" name = "division" value= "Male" />
-      </p>
-      <p>
-        Female: <input type="radio" name = "division" value= "female" />
-      </p>
-        <br />
-    </div>
+    <h1> Report Bathroom Status Change</h1><br>
+    <form>
+      <div id="location">
+        <h4>Location</h4>
+        <input type="checkbox" id="300" name="location1" value="300 wing">
+        <label for="300">300 wing</label><br>
+        <input type="checkbox" id="700" name="location2" value="700 wing">
+        <label for="700">700 wing</label><br>
+        <input type="checkbox" id="lot" name="location3" value="lot">
+        <label for="lot">Parking Lot</label><br>
+        <input type="checkbox" id="newBottom" name="location4" value="newBuildingBottom">
+        <label for="newBottom">New Building (Bottom)</label><br>
+        <input type="checkbox" id="newTop" name="location5" value="newBuildingTop">
+        <label for="newTop">New Building (Top)</label><br>
+      </div><br>
+      <div id = "gender">
+        <h4>Gender</h4>
+        <p><input type="radio" name = "division" value= "male" /> Male</p>
+        <p><input type="radio" name = "division" value= "female" /> Female</p><br>
+      </div>
+      <div id = "gender">
+        <h4>Status</h4>
+        <p><input type="radio" name = "division" value= "open" /> Open</p>
+        <p><input type="radio" name = "division" value= "closed" /> Closed</p><br>
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+  <br>
     <hr />
 </body>
 </html>
